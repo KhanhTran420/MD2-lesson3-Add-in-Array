@@ -21,9 +21,8 @@ public class addElement {
         Scanner scannerX = new Scanner(System.in);
         System.out.println("Enter a number need add: ");
          x = scannerX.nextInt();
-        for (int i = 0; i < arr.length ; i++) {
+        for (int i = 1; i < arr.length ; i++) {
             if(x==arr[i]){
-                System.out.println("index: " + i);
                 index = i;
                 break;
             }
